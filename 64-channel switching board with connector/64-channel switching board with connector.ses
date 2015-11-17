@@ -1,0 +1,5576 @@
+
+(session "64-channel switching board with connector.ses"
+  (base_design "64-channel switching board with connector.dsn")
+  (placement
+    (resolution um 10)
+    (component "he10-10d"
+      (place P65 1501140 -495300 front 270)
+    )
+    (component 1pin
+      (place H3 494030 -934720 front 0)
+      (place H2 494030 -388620 front 0)
+    )
+    (component pogo_pin
+      (place P1 417830 -464820 front 0)
+      (place P2 443230 -464820 front 0)
+      (place P3 468630 -464820 front 0)
+      (place P4 494030 -464820 front 0)
+      (place P5 417830 -490220 front 180)
+      (place P6 443230 -490220 front 180)
+      (place P7 468630 -490220 front 180)
+      (place P8 494030 -490220 front 180)
+      (place P9 417830 -515620 front 180)
+      (place P10 443230 -515620 front 0)
+      (place P11 468630 -515620 front 0)
+      (place P12 494030 -515620 front 0)
+      (place P13 417830 -541020 front 0)
+      (place P14 443230 -541020 front 0)
+      (place P15 468630 -541020 front 0)
+      (place P16 494030 -541020 front 0)
+      (place P17 417830 -566420 front 0)
+      (place P18 443230 -566420 front 0)
+      (place P19 468630 -566420 front 0)
+      (place P20 494030 -566420 front 0)
+      (place P21 417830 -591820 front 0)
+      (place P22 443230 -591820 front 0)
+      (place P23 468630 -591820 front 0)
+      (place P24 494030 -591820 front 0)
+      (place P25 417830 -617220 front 0)
+      (place P26 443230 -617220 front 0)
+      (place P27 468630 -617220 front 0)
+      (place P28 494030 -617220 front 0)
+      (place P29 417830 -642620 front 0)
+      (place P30 443230 -642620 front 0)
+      (place P31 468630 -642620 front 0)
+      (place P32 494030 -642620 front 0)
+      (place P33 417830 -668020 front 0)
+      (place P34 443230 -668020 front 0)
+      (place P35 468630 -668020 front 0)
+      (place P36 494030 -668020 front 0)
+      (place P37 417830 -693420 front 0)
+      (place P38 443230 -693420 front 0)
+      (place P39 468630 -693420 front 0)
+      (place P40 494030 -693420 front 0)
+      (place P41 417830 -718820 front 0)
+      (place P42 443230 -718820 front 0)
+      (place P43 468630 -718820 front 0)
+      (place P44 494030 -718820 front 0)
+      (place P45 417830 -744220 front 0)
+      (place P46 443230 -744220 front 0)
+      (place P47 468630 -744220 front 0)
+      (place P48 494030 -744220 front 0)
+      (place P49 417830 -769620 front 0)
+      (place P50 443230 -769620 front 0)
+      (place P51 468630 -769620 front 0)
+      (place P52 494030 -769620 front 0)
+      (place P53 417830 -795020 front 0)
+      (place P54 443230 -795020 front 0)
+      (place P55 468630 -795020 front 0)
+      (place P56 494030 -795020 front 0)
+      (place P57 417830 -820420 front 0)
+      (place P58 443230 -820420 front 0)
+      (place P59 468630 -820420 front 0)
+      (place P60 494030 -820420 front 0)
+      (place P61 417830 -845820 front 0)
+      (place P62 443230 -845820 front 0)
+      (place P64 494030 -845820 front 0)
+      (place P63 468630 -845820 front 0)
+    )
+    (component PQFP80
+      (place U1 1082040 -703580 front 0)
+    )
+    (component PIN_ARRAY_2X1
+      (place P66 1447800 -927100 front 90)
+    )
+    (component Capacitors_SMD:C_1206
+      (place C1 1264920 -556260 front 90)
+      (place C2 1371600 -469900 front 90)
+      (place C3 1234440 -556260 front 90)
+      (place C4 1323340 -469900 front 90)
+      (place C5 1201420 -556260 front 90)
+      (place C6 1275080 -469900 front 90)
+      (place C7 1168400 -556260 front 90)
+      (place C8 1224280 -469900 front 90)
+      (place C9 1135380 -556260 front 90)
+      (place C10 1176020 -469900 front 90)
+      (place C11 1102360 -556260 front 90)
+      (place C12 1127760 -469900 front 90)
+      (place C13 1069340 -556260 front 90)
+      (place C14 1079500 -469900 front 90)
+      (place C15 1036320 -556260 front 90)
+      (place C16 1031240 -469900 front 90)
+      (place C17 1003300 -556260 front 90)
+      (place C18 982980 -469900 front 90)
+      (place C19 970280 -556260 front 90)
+      (place C20 934720 -469900 front 90)
+      (place C21 937260 -556260 front 90)
+      (place C22 886460 -469900 front 90)
+      (place C23 904240 -556260 front 90)
+      (place C24 838200 -469900 front 90)
+      (place C25 853440 -594360 front 180)
+      (place C26 779780 -561340 front 180)
+      (place C27 853440 -627380 front 180)
+      (place C28 779780 -604520 front 180)
+      (place C29 853440 -657860 front 180)
+      (place C30 779780 -650240 front 180)
+      (place C31 853440 -688340 front 180)
+      (place C32 779780 -695960 front 180)
+      (place C33 853440 -718820 front 180)
+      (place C34 779780 -736600 front 180)
+      (place C35 853440 -749300 front 180)
+      (place C36 779780 -774700 front 180)
+      (place C37 853440 -779780 front 180)
+      (place C38 779780 -815340 front 180)
+      (place C39 853440 -810260 front 180)
+      (place C40 779780 -855980 front 180)
+      (place C41 904240 -850900 front 270)
+      (place C42 838200 -942340 front 270)
+      (place C43 937260 -850900 front 270)
+      (place C44 886460 -942340 front 270)
+      (place C45 970280 -850900 front 270)
+      (place C46 937260 -942340 front 270)
+      (place C47 1003300 -850900 front 270)
+      (place C48 982980 -942340 front 270)
+      (place C49 1036320 -850900 front 270)
+      (place C50 1031240 -942340 front 270)
+      (place C51 1069340 -850900 front 270)
+      (place C52 1079500 -942340 front 270)
+      (place C53 1102360 -850900 front 270)
+      (place C54 1127760 -942340 front 270)
+      (place C55 1135380 -850900 front 270)
+      (place C56 1176020 -942340 front 270)
+      (place C57 1168400 -850900 front 270)
+      (place C58 1224280 -942340 front 270)
+      (place C59 1201420 -850900 front 270)
+      (place C60 1275080 -942340 front 270)
+      (place C61 1234440 -850900 front 270)
+      (place C62 1323340 -942340 front 270)
+      (place C63 1264920 -850900 front 270)
+      (place C64 1369060 -942340 front 270)
+    )
+    (component Resistors_SMD:R_1206
+      (place R1 1404620 -388620 front 270)
+      (place R2 1376680 -388620 front 270)
+      (place R3 1346200 -388620 front 270)
+      (place R4 1315720 -388620 front 270)
+      (place R5 1285240 -388620 front 270)
+      (place R6 1254760 -388620 front 270)
+      (place R7 1224280 -388620 front 270)
+      (place R8 1193800 -388620 front 270)
+      (place R9 1163320 -388620 front 270)
+      (place R10 1135380 -388620 front 270)
+      (place R11 1104900 -388620 front 270)
+      (place R12 1074420 -388620 front 270)
+      (place R13 1043940 -388620 front 270)
+      (place R14 1013460 -388620 front 270)
+      (place R15 985520 -388620 front 270)
+      (place R16 957580 -388620 front 270)
+      (place R17 929640 -388620 front 270)
+      (place R18 901700 -388620 front 270)
+      (place R19 873760 -388620 front 270)
+      (place R20 845820 -388620 front 270)
+      (place R21 817880 -388620 front 270)
+      (place R22 789940 -388620 front 270)
+      (place R23 762000 -388620 front 270)
+      (place R24 734060 -388620 front 270)
+      (place R25 589280 -589280 front 270)
+      (place R26 619760 -589280 front 270)
+      (place R27 650240 -589280 front 270)
+      (place R28 683260 -589280 front 270)
+      (place R29 589280 -668020 front 90)
+      (place R30 619760 -668020 front 90)
+      (place R31 650240 -668020 front 90)
+      (place R32 683260 -668020 front 90)
+      (place R33 589280 -744220 front 270)
+      (place R34 619760 -744220 front 270)
+      (place R35 650240 -744220 front 270)
+      (place R36 683260 -744220 front 270)
+      (place R37 589280 -822960 front 90)
+      (place R38 619760 -822960 front 90)
+      (place R39 650240 -822960 front 90)
+      (place R40 683260 -822960 front 90)
+      (place R41 734060 -1041400 front 90)
+      (place R42 762000 -1041400 front 90)
+      (place R43 789940 -1041400 front 90)
+      (place R44 817880 -1041400 front 90)
+      (place R45 845820 -1041400 front 90)
+      (place R46 873760 -1041400 front 90)
+      (place R47 901700 -1041400 front 90)
+      (place R48 929640 -1041400 front 90)
+      (place R49 957580 -1041400 front 90)
+      (place R50 985520 -1041400 front 90)
+      (place R51 1013460 -1041400 front 90)
+      (place R52 1043940 -1041400 front 90)
+      (place R53 1074420 -1041400 front 90)
+      (place R54 1104900 -1041400 front 90)
+      (place R55 1135380 -1041400 front 90)
+      (place R56 1163320 -1041400 front 90)
+      (place R57 1193800 -1041400 front 90)
+      (place R58 1226820 -1041400 front 90)
+      (place R59 1254760 -1041400 front 90)
+      (place R60 1287780 -1041400 front 90)
+      (place R61 1315720 -1041400 front 90)
+      (place R62 1346200 -1041400 front 90)
+      (place R63 1376680 -1041400 front 90)
+      (place R64 1404620 -1041400 front 90)
+    )
+    (component "wheelerlab:TFML-120-01-XXX-D-RA"
+      (place P67 254000 -581660 front 270)
+    )
+  )
+  (was_is
+  )
+  (routes 
+    (resolution um 10)
+    (parser
+      (host_cad "KiCad's Pcbnew")
+      (host_version "4.0.0-rc1-stable")
+    )
+    (library_out 
+      (padstack "Via[0-1]_762:381_um"
+        (shape
+          (circle Front 7620 0 0)
+        )
+        (shape
+          (circle Back 7620 0 0)
+        )
+        (attach off)
+      )
+    )
+    (network_out 
+      (net +5V
+        (wire
+          (path Front 1778
+            1193040 -715518
+            1193038 -715518
+          )
+        )
+        (wire
+          (path Front 1778
+            1193040 -715518
+            1227710 -715518
+            1234840 -708391
+          )
+          (type protect)
+        )
+        (via "Via[0-1]_762:381_um" 1234840 -708391
+          (type protect)
+        )
+        (wire
+          (path Back 1778
+            1488440 -444500
+            1488440 -454790
+            1234840 -708391
+          )
+          (type protect)
+        )
+      )
+      (net BL
+        (wire
+          (path Front 1778
+            1193040 -731520
+            1193038 -731520
+          )
+        )
+        (wire
+          (path Front 1778
+            1193040 -731520
+            1257790 -731520
+          )
+          (type protect)
+        )
+        (via "Via[0-1]_762:381_um" 1257790 -731520
+          (type protect)
+        )
+        (wire
+          (path Back 1778
+            1488440 -495300
+            1488440 -500867
+            1257790 -731520
+          )
+          (type protect)
+        )
+      )
+      (net CLK
+        (wire
+          (path Front 1778
+            1193040 -667512
+            1193038 -667512
+          )
+        )
+        (wire
+          (path Front 1778
+            1488440 -546100
+            1367030 -667512
+            1193040 -667512
+          )
+          (type protect)
+        )
+      )
+      (net DIOA
+        (wire
+          (path Front 1778
+            1193040 -755650
+            1193038 -755650
+          )
+        )
+        (wire
+          (path Front 1778
+            1193040 -755650
+            1324220 -755650
+            1527920 -551952
+            1527920 -509379
+            1513840 -495300
+          )
+          (type protect)
+        )
+      )
+      (net DIOB
+        (wire
+          (path Front 1778
+            1193040 -651510
+            1193038 -651510
+          )
+        )
+        (wire
+          (path Front 1778
+            1193040 -651510
+            1357630 -651510
+            1488440 -520700
+          )
+          (type protect)
+        )
+      )
+      (net DIR
+        (wire
+          (path Front 1778
+            1193040 -707644
+            1193038 -707644
+          )
+        )
+        (wire
+          (path Front 1778
+            1193040 -707644
+            1223410 -707644
+            1233320 -697736
+            1377100 -697736
+            1524360 -550477
+            1524360 -515925
+            1514020 -505591
+            1509120 -505591
+            1501140 -497611
+            1501140 -482600
+            1488440 -469900
+          )
+          (type protect)
+        )
+      )
+      (net GND
+        (wire
+          (path Front 1778
+            1193040 -699516
+            1193038 -699516
+          )
+        )
+        (wire
+          (path Front 1778
+            1193040 -699516
+            1205870 -699516
+            1206900 -700552
+            1220930 -700552
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1163320 -1055900
+            1135380 -1055900
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1193800 -1055900
+            1163320 -1055900
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1226820 -1055900
+            1193800 -1055900
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1254760 -1055900
+            1226820 -1055900
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1224280 -374120
+            1254760 -374120
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1193800 -374120
+            1224280 -374120
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1013460 -374120
+            1043940 -374120
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            985520 -374120
+            1013460 -374120
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            957580 -1055900
+            929640 -1055900
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            985520 -1055900
+            957580 -1055900
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1287780 -1055900
+            1254760 -1055900
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1315720 -1055900
+            1287780 -1055900
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1013460 -1055900
+            985520 -1055900
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            957580 -374120
+            985520 -374120
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1163320 -374120
+            1193800 -374120
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1376680 -374120
+            1404620 -374120
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1346200 -374120
+            1376680 -374120
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1135380 -374120
+            1163320 -374120
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            929640 -374120
+            957580 -374120
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1043940 -1055900
+            1013460 -1055900
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1346200 -1055900
+            1315720 -1055900
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1376680 -1055900
+            1346200 -1055900
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1074420 -1055900
+            1043940 -1055900
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            789940 -1055900
+            762000 -1055900
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            817880 -1055900
+            789940 -1055900
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            619760 -682520
+            589280 -682520
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            650240 -682520
+            619760 -682520
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            619760 -574780
+            589280 -574780
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            650240 -574780
+            619760 -574780
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            817880 -374120
+            845820 -374120
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            789940 -374120
+            817880 -374120
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            901700 -374120
+            929640 -374120
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1104900 -374120
+            1135380 -374120
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1315720 -374120
+            1346200 -374120
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            845820 -1055900
+            817880 -1055900
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            873760 -1055900
+            845820 -1055900
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            901700 -1055900
+            873760 -1055900
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            929640 -1055900
+            901700 -1055900
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1074420 -374120
+            1043940 -374120
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1104900 -374120
+            1074420 -374120
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            873760 -374120
+            845820 -374120
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            901700 -374120
+            873760 -374120
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1104900 -1055900
+            1074420 -1055900
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1135380 -1055900
+            1104900 -1055900
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            619760 -729720
+            589280 -729720
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            650240 -729720
+            619760 -729720
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1285240 -374120
+            1254760 -374120
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1315720 -374120
+            1285240 -374120
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            619760 -837460
+            589280 -837460
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            650240 -837460
+            619760 -837460
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            762000 -374120
+            734060 -374120
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            789940 -374120
+            762000 -374120
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            683260 -837460
+            683260 -833875
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            683260 -729720
+            683260 -726135
+          )
+          (type protect)
+        )
+        (via "Via[0-1]_762:381_um" 698537 -575867
+          (type protect)
+        )
+        (via "Via[0-1]_762:381_um" 1220930 -700552
+          (type protect)
+        )
+        (via "Via[0-1]_762:381_um" 686219 -719617
+          (type protect)
+        )
+        (via "Via[0-1]_762:381_um" 686219 -827338
+          (type protect)
+        )
+        (wire
+          (path Back 1778
+            698634 -686054
+            698634 -707202
+            686219 -719617
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 1778
+            1220930 -686054
+            698634 -686054
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 1778
+            698634 -686054
+            698634 -575964
+            698537 -575867
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            683260 -574780
+            694430 -574780
+            695517 -575867
+            698537 -575867
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 1778
+            1513840 -444500
+            1503550 -434209
+            1479160 -434209
+            1227310 -686054
+            1220930 -686054
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 1778
+            1220930 -686054
+            1220930 -700552
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 1778
+            686219 -719617
+            686219 -827338
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            650240 -729720
+            661410 -729720
+            664995 -726135
+            683260 -726135
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            686219 -719617
+            683260 -716658
+            683260 -682520
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            683260 -726135
+            683260 -722550
+            683286 -722550
+            686219 -719617
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            650240 -837460
+            661410 -837460
+            664995 -833875
+            683260 -833875
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            686219 -827338
+            683267 -830290
+            683260 -830290
+            683260 -833875
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            683260 -574780
+            650240 -574780
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            683260 -682520
+            650240 -682520
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1404620 -1053190
+            1531480 -926328
+            1531480 -462139
+            1513840 -444500
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1376680 -1055900
+            1387850 -1055900
+            1390560 -1053190
+            1404620 -1053190
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1404620 -1055900
+            1404620 -1053190
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            762000 -1055900
+            734060 -1055900
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1404620 -374120
+            1443460 -374120
+            1513840 -444500
+          )
+          (type protect)
+        )
+      )
+      (net LE
+        (wire
+          (path Front 1778
+            1193040 -659638
+            1193038 -659638
+          )
+        )
+        (wire
+          (path Front 1778
+            1193040 -659638
+            1355660 -659638
+            1481900 -533400
+            1501140 -533400
+            1513840 -520700
+          )
+          (type protect)
+        )
+      )
+      (net POL
+        (wire
+          (path Front 1778
+            1193040 -723646
+            1193038 -723646
+          )
+        )
+        (wire
+          (path Front 1778
+            1258000 -722114
+            1256470 -723646
+            1193040 -723646
+          )
+          (type protect)
+        )
+        (via "Via[0-1]_762:381_um" 1258000 -722114
+          (type protect)
+        )
+        (wire
+          (path Back 1778
+            1258000 -722114
+            1272790 -707319
+            1272790 -696078
+            1483860 -485009
+            1498730 -485009
+            1513840 -469900
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(P66-Pad1)"
+        (wire
+          (path Front 1778
+            1193040 -643636
+            1193038 -643636
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1193038 -763524
+            1180210 -763524
+            1180210 -643636
+            1193038 -643636
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1447800 -939800
+            1437510 -939800
+            1261230 -763524
+            1193038 -763524
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(P66-Pad2)"
+        (wire
+          (path Front 1778
+            1193040 -691642
+            1193038 -691642
+          )
+        )
+        (wire
+          (path Front 1778
+            1193040 -691642
+            1205870 -691642
+            1206850 -692620
+            1213440 -692620
+          )
+          (type protect)
+        )
+        (via "Via[0-1]_762:381_um" 1213440 -692620
+          (type protect)
+        )
+        (wire
+          (path Back 1778
+            1213440 -692620
+            1213440 -702647
+            1425200 -914400
+            1447800 -914400
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C1-Pad1)"
+        (wire
+          (path Front 1778
+            1173990 -622554
+            1173988 -622554
+          )
+        )
+        (wire
+          (path Front 1778
+            1264920 -571260
+            1264920 -578930
+            1221300 -622554
+            1173990 -622554
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C1-Pad2)"
+        (wire
+          (path Front 1778
+            247650 -461010
+            244963 -458323
+            244963 -441384
+            250541 -435806
+            407924 -435806
+            416985 -444867
+            422641 -444867
+            429263 -451489
+            429263 -453387
+          )
+        )
+        (wire
+          (path Front 1778
+            429263 -453387
+            417830 -464820
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1402840 -410445
+            1402840 -395949
+            1388600 -381714
+            697293 -381714
+            628416 -450591
+            432059 -450591
+            429263 -453387
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1402840 -410445
+            1402840 -440441
+            1373380 -469900
+            1359190 -469900
+            1287830 -541260
+            1264920 -541260
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1404620 -403120
+            1404620 -410290
+            1402990 -410290
+            1402840 -410445
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C2-Pad1)"
+        (wire
+          (path Front 1778
+            1166110 -616139
+            1166114 -616143
+            1166114 -622554
+          )
+        )
+        (wire
+          (path Front 1778
+            1166110 -616139
+            1166110 -609724
+            1212940 -609724
+            1254250 -568414
+            1254250 -564909
+            1262900 -556260
+            1307910 -556260
+            1371600 -492570
+            1371600 -484900
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1166110 -622554
+            1166110 -616139
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C2-Pad2)"
+        (wire
+          (path Front 1778
+            260350 -461010
+            269877 -451483
+            420037 -451483
+          )
+        )
+        (wire
+          (path Back 1778
+            443230 -464820
+            429893 -451483
+            420037 -451483
+          )
+        )
+        (via "Via[0-1]_762:381_um" 420037 -451483
+        )
+        (wire
+          (path Front 1778
+            1371600 -406705
+            1350170 -385273
+            698767 -385273
+            629889 -454151
+            453899 -454151
+            443230 -464820
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1371600 -406705
+            1376680 -406705
+            1376680 -403120
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1371600 -406705
+            1371600 -454900
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C3-Pad1)"
+        (wire
+          (path Front 1778
+            1157990 -616139
+            1157986 -616143
+            1157986 -622554
+          )
+        )
+        (wire
+          (path Front 1778
+            1157990 -616139
+            1157990 -609724
+            1163940 -603766
+            1209600 -603766
+            1234440 -578930
+            1234440 -571260
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1157990 -622554
+            1157990 -616139
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C3-Pad2)"
+        (wire
+          (path Front 1778
+            247650 -473710
+            239792 -465852
+            239792 -441229
+            249295 -431726
+            416230 -431726
+            419200 -434696
+          )
+        )
+        (wire
+          (path Back 1778
+            1244393 -436220
+            1254182 -426431
+            1254182 -408372
+            1232573 -386763
+            592663 -386763
+            571281 -365381
+            484755 -365381
+            419200 -430936
+            419200 -434696
+          )
+        )
+        (wire
+          (path Back 1778
+            1244393 -436220
+            1248850 -440677
+          )
+          (type protect)
+        )
+        (via "Via[0-1]_762:381_um" 419200 -434696
+        )
+        (wire
+          (path Back 1778
+            468630 -464820
+            535911 -397539
+            1205720 -397539
+            1244393 -436220
+          )
+          (type protect)
+        )
+        (via "Via[0-1]_762:381_um" 1248850 -440677
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1285990 -465851
+            1268650 -465851
+            1248850 -446057
+            1248850 -440677
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1346200 -403120
+            1346200 -395950
+            1306070 -395950
+            1297890 -404133
+            1297890 -453954
+            1285990 -465851
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1285990 -465851
+            1285990 -491180
+            1245110 -532059
+            1245110 -541260
+            1234440 -541260
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C4-Pad1)"
+        (wire
+          (path Front 1778
+            1150110 -616139
+            1150112 -616141
+            1150112 -622554
+          )
+        )
+        (wire
+          (path Front 1778
+            1150110 -616139
+            1150110 -622554
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1323340 -484900
+            1303980 -484900
+            1250690 -538192
+            1250690 -542219
+            1236650 -556260
+            1232620 -556260
+            1223770 -565113
+            1223770 -565977
+            1192980 -596766
+            1163070 -596766
+            1150110 -609724
+            1150110 -616139
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C4-Pad2)"
+        (wire
+          (path Front 1778
+            494030 -464820
+            483735 -475115
+            261755 -475115
+            260350 -473710
+          )
+        )
+        (wire
+          (path Back 1778
+            494030 -464820
+            550634 -408216
+            1098370 -408216
+            1113680 -423520
+            1202040 -423520
+            1225770 -447251
+            1307060 -447251
+          )
+          (type protect)
+        )
+        (via "Via[0-1]_762:381_um" 1307060 -447251
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1315720 -446582
+            1315720 -403120
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1323340 -454900
+            1323340 -451065
+            1320200 -451065
+            1315720 -446582
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1315720 -446582
+            1307730 -446582
+            1307060 -447251
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C5-Pad1)"
+        (wire
+          (path Front 1778
+            1141980 -616139
+            1141984 -616143
+            1141984 -622554
+          )
+        )
+        (wire
+          (path Front 1778
+            1141980 -616139
+            1141980 -622554
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1201420 -571260
+            1201420 -578930
+            1187140 -593207
+            1158500 -593207
+            1141980 -609724
+            1141980 -616139
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C5-Pad2)"
+        (wire
+          (path Back 1778
+            247650 -486410
+            239658 -478418
+            239658 -446669
+            250568 -435759
+            257556 -435759
+            312017 -490220
+          )
+        )
+        (wire
+          (path Front 1778
+            417830 -490220
+            312017 -490220
+          )
+        )
+        (via "Via[0-1]_762:381_um" 312017 -490220
+        )
+        (wire
+          (path Back 1778
+            1238740 -402097
+            1226960 -390323
+            525670 -390323
+            494814 -421179
+            491691 -421179
+            454779 -458091
+            454779 -467895
+            444319 -478355
+            429695 -478355
+            417830 -490220
+          )
+          (type protect)
+        )
+        (via "Via[0-1]_762:381_um" 1238740 -402097
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1238740 -402097
+            1238740 -496271
+            1201420 -533590
+            1201420 -541260
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1285240 -403120
+            1285240 -395950
+            1244890 -395950
+            1238740 -402097
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C6-Pad1)"
+        (wire
+          (path Front 1778
+            1134110 -622554
+            1134110 -609724
+            1155970 -587868
+            1168870 -587868
+            1181020 -575715
+            1181020 -574747
+            1199510 -556260
+            1203490 -556260
+            1212880 -546874
+            1212880 -536430
+            1264410 -484900
+            1275080 -484900
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C6-Pad2)"
+        (wire
+          (path Front 1778
+            443230 -490220
+            432917 -500533
+            384423 -500533
+            383514 -499624
+            309476 -499624
+          )
+        )
+        (wire
+          (path Back 1778
+            260350 -486410
+            296262 -486410
+            309476 -499624
+          )
+        )
+        (via "Via[0-1]_762:381_um" 309476 -499624
+        )
+        (wire
+          (path Back 1778
+            443230 -490220
+            458339 -475111
+            458339 -460171
+            469964 -448546
+            478143 -448546
+            532710 -393979
+            1221460 -393979
+            1244830 -417351
+            1247700 -417351
+          )
+          (type protect)
+        )
+        (via "Via[0-1]_762:381_um" 1247700 -417351
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1253590 -417351
+            1253590 -425736
+            1275080 -447230
+            1275080 -454900
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1254760 -403120
+            1254760 -410290
+            1253590 -411464
+            1253590 -417351
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1253590 -417351
+            1247700 -417351
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C7-Pad1)"
+        (wire
+          (path Front 1778
+            1125980 -616139
+            1125982 -616141
+            1125982 -622554
+          )
+        )
+        (wire
+          (path Front 1778
+            1125980 -616139
+            1125980 -622554
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1168400 -571260
+            1168400 -578930
+            1156780 -578930
+            1125980 -609724
+            1125980 -616139
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C7-Pad2)"
+        (wire
+          (path Front 1778
+            516669 -431898
+            512937 -428166
+            247820 -428166
+            236232 -439754
+            236232 -487692
+            247650 -499110
+          )
+        )
+        (wire
+          (path Back 1778
+            513644 -430483
+            515254 -430483
+            516669 -431898
+          )
+        )
+        (via "Via[0-1]_762:381_um" 516669 -431898
+        )
+        (wire
+          (path Back 1778
+            513644 -430483
+            539470 -404657
+            1143860 -404657
+            1149480 -410275
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 1778
+            468630 -490220
+            483739 -475111
+            483739 -460388
+            513644 -430483
+          )
+          (type protect)
+        )
+        (via "Via[0-1]_762:381_um" 1149480 -410275
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1224280 -403120
+            1224280 -410290
+            1234950 -420961
+            1234950 -461042
+            1226090 -469900
+            1222190 -469900
+            1168400 -523691
+            1168400 -541260
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1149480 -410275
+            1149480 -400182
+            1153710 -395950
+            1224280 -395950
+            1224280 -403120
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C8-Pad1)"
+        (wire
+          (path Front 1778
+            1118110 -614155
+            1118108 -614157
+            1118108 -622554
+          )
+        )
+        (wire
+          (path Front 1778
+            1118110 -614155
+            1118110 -622554
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1224280 -484900
+            1224280 -492570
+            1183420 -533430
+            1183420 -543559
+            1170720 -556260
+            1166570 -556260
+            1150160 -572678
+            1150160 -573709
+            1118110 -605756
+            1118110 -614155
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C8-Pad2)"
+        (wire
+          (path Front 1778
+            494030 -490220
+            483709 -479899
+            279561 -479899
+            260350 -499110
+          )
+        )
+        (via "Via[0-1]_762:381_um" 1193800 -431326
+          (type protect)
+        )
+        (wire
+          (path Back 1778
+            494030 -490220
+            568916 -415334
+            1018160 -415334
+            1024000 -421177
+            1029670 -421177
+            1037500 -413349
+            1097480 -413349
+            1115450 -431326
+            1193800 -431326
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1193800 -431326
+            1193800 -403120
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1224280 -454900
+            1224280 -451065
+            1213540 -451065
+            1193800 -431326
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C9-Pad1)"
+        (wire
+          (path Front 1778
+            1135380 -571260
+            1135380 -578930
+            1109980 -604330
+            1109980 -622554
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C9-Pad2)"
+        (wire
+          (path Front 1778
+            417830 -515620
+            387666 -515620
+            378788 -506742
+            340390 -506742
+            337305 -509827
+          )
+        )
+        (wire
+          (path Back 1778
+            247650 -511810
+            236001 -500161
+            236001 -445291
+            249265 -432027
+            263084 -432027
+            337305 -506248
+            337305 -509827
+          )
+        )
+        (via "Via[0-1]_762:381_um" 337305 -509827
+        )
+        (wire
+          (path Back 1778
+            417830 -515620
+            430530 -502920
+            445241 -502920
+            454781 -493380
+            454781 -489042
+            465044 -478779
+            469515 -478779
+            480180 -468114
+            480180 -458912
+            537994 -401098
+            1174640 -401098
+            1177560 -404020
+          )
+          (type protect)
+        )
+        (via "Via[0-1]_762:381_um" 1177560 -404020
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1177560 -404020
+            1186690 -413150
+            1186690 -461042
+            1172100 -475636
+            1167880 -475636
+            1135380 -508135
+            1135380 -541260
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1163320 -403120
+            1163320 -403794
+            1177340 -403794
+            1177560 -404020
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C10-Pad1)"
+        (wire
+          (path Front 1778
+            1102110 -610026
+            1102106 -610030
+            1102106 -622554
+          )
+        )
+        (wire
+          (path Front 1778
+            1102110 -610026
+            1102110 -597498
+            1124710 -574895
+            1124710 -564816
+            1133260 -556260
+            1137160 -556260
+            1153170 -540248
+            1153170 -515422
+            1176020 -492570
+            1176020 -484900
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1102110 -622554
+            1102110 -610026
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C10-Pad2)"
+        (wire
+          (path Front 1778
+            448653 -510197
+            443101 -504645
+            383502 -504645
+            382040 -503183
+            324458 -503183
+            315831 -511810
+            260350 -511810
+          )
+        )
+        (wire
+          (path Front 1778
+            448653 -510197
+            443230 -515620
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1135380 -406705
+            1117510 -388832
+            700241 -388832
+            630539 -458534
+            548707 -458534
+            504321 -502920
+            455930 -502920
+            448653 -510197
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1135380 -406705
+            1175900 -447230
+            1176020 -447230
+            1176020 -454900
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1135380 -403120
+            1135380 -406705
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C11-Pad1)"
+        (wire
+          (path Front 1778
+            1093980 -604933
+            1093978 -604935
+            1093978 -622554
+          )
+        )
+        (wire
+          (path Front 1778
+            1093980 -604933
+            1093980 -622554
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1102360 -571260
+            1102360 -578930
+            1093980 -587312
+            1093980 -604933
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C11-Pad2)"
+        (wire
+          (path Front 1778
+            561213 -432683
+            552677 -424147
+            246681 -424147
+            232195 -438633
+            232195 -488690
+            239213 -495708
+            239213 -516073
+            247650 -524510
+          )
+        )
+        (wire
+          (path Back 1778
+            533825 -502597
+            533825 -460071
+            561213 -432683
+          )
+        )
+        (via "Via[0-1]_762:381_um" 561213 -432683
+        )
+        (wire
+          (path Back 1778
+            533825 -502597
+            481652 -502597
+            481652 -502598
+            468630 -515620
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 1778
+            1087070 -419894
+            1085250 -418072
+            1037810 -418072
+            1031140 -424736
+            1022220 -424736
+            1016380 -418893
+            730736 -418893
+            647032 -502597
+            533825 -502597
+          )
+          (type protect)
+        )
+        (via "Via[0-1]_762:381_um" 1087070 -419894
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1104900 -418451
+            1088520 -418451
+            1087070 -419894
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1104900 -418451
+            1108980 -418451
+            1138430 -447901
+            1138430 -497519
+            1102360 -533590
+            1102360 -541260
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1104900 -403120
+            1104900 -418451
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C12-Pad1)"
+        (wire
+          (path Front 1778
+            1086100 -578390
+            1086104 -578394
+            1086104 -622554
+          )
+        )
+        (wire
+          (path Front 1778
+            1086100 -578390
+            1086100 -622554
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1127760 -484900
+            1127760 -492570
+            1086100 -534226
+            1086100 -578390
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C12-Pad2)"
+        (wire
+          (path Back 1778
+            1131649 -468991
+            1299521 -468991
+            1317296 -451216
+            1317296 -443045
+            1232456 -358205
+            481251 -358205
+            372848 -466608
+            372848 -513222
+          )
+        )
+        (wire
+          (path Front 1778
+            1109795 -447230
+            1109795 -453808
+            1124978 -468991
+            1131649 -468991
+          )
+        )
+        (wire
+          (path Front 1778
+            260350 -524510
+            358000 -524510
+            369288 -513222
+            372848 -513222
+          )
+        )
+        (via "Via[0-1]_762:381_um" 372848 -513222
+        )
+        (via "Via[0-1]_762:381_um" 1131649 -468991
+        )
+        (wire
+          (path Front 1778
+            1109795 -447230
+            1100720 -447230
+            1078180 -424691
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1127760 -454900
+            1127760 -447230
+            1109795 -447230
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 1778
+            1078180 -424691
+            1074580 -428295
+            1020750 -428295
+            1014910 -422452
+            732210 -422452
+            639042 -515620
+            494030 -515620
+          )
+          (type protect)
+        )
+        (via "Via[0-1]_762:381_um" 1078180 -424691
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1074420 -403120
+            1074420 -410290
+            1078180 -414052
+            1078180 -424691
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C13-Pad1)"
+        (wire
+          (path Front 1778
+            1077980 -605060
+            1077976 -605064
+            1077976 -622554
+          )
+        )
+        (wire
+          (path Front 1778
+            1077980 -605060
+            1077980 -622554
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1069340 -571260
+            1069340 -578930
+            1077980 -587566
+            1077980 -605060
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C13-Pad2)"
+        (wire
+          (path Back 1778
+            376516 -541020
+            357164 -521668
+            357164 -515371
+            266700 -424907
+            246224 -424907
+            221280 -449851
+            221280 -513770
+            244720 -537210
+            247650 -537210
+          )
+        )
+        (wire
+          (path Front 1778
+            417830 -541020
+            376516 -541020
+          )
+        )
+        (via "Via[0-1]_762:381_um" 376516 -541020
+        )
+        (wire
+          (path Back 1778
+            417830 -541020
+            430530 -528320
+            445754 -528320
+            455930 -518144
+            455930 -513517
+            466527 -502920
+            471441 -502920
+            482590 -491771
+            482590 -487036
+            491822 -477804
+            495599 -477804
+            561628 -411775
+            1023760 -411775
+            1026680 -414697
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1043940 -403120
+            1032770 -403120
+            1032770 -408612
+            1026680 -414697
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1069340 -541260
+            1069340 -533590
+            1090170 -512759
+            1090170 -447951
+            1055110 -412890
+            1055110 -403120
+            1043940 -403120
+          )
+          (type protect)
+        )
+        (via "Via[0-1]_762:381_um" 1026680 -414697
+          (type protect)
+        )
+      )
+      (net "Net-(C14-Pad1)"
+        (wire
+          (path Front 1778
+            1069850 -611003
+            1069848 -611005
+            1069848 -622554
+          )
+        )
+        (wire
+          (path Front 1778
+            1069850 -611003
+            1069850 -622554
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1079500 -484900
+            1079500 -492570
+            1058670 -513401
+            1058670 -588274
+            1069850 -599453
+            1069850 -611003
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C14-Pad2)"
+        (wire
+          (path Front 1778
+            443230 -541020
+            429017 -526807
+            401270 -526807
+            397280 -522817
+            366307 -522817
+            351914 -537210
+            260350 -537210
+          )
+        )
+        (wire
+          (path Front 1778
+            443230 -541020
+            455930 -528320
+            510192 -528320
+            576419 -462093
+            648245 -462093
+            717947 -392391
+            992275 -392391
+            1002290 -402406
+            1002290 -403120
+            1013460 -403120
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1013460 -403120
+            1013460 -410636
+            1057720 -454900
+            1079500 -454900
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C15-Pad1)"
+        (wire
+          (path Front 1778
+            1061970 -613569
+            1061974 -613573
+            1061974 -622554
+          )
+        )
+        (wire
+          (path Front 1778
+            1061970 -613569
+            1061970 -622554
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1036320 -571260
+            1036320 -578930
+            1061970 -604584
+            1061970 -613569
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C15-Pad2)"
+        (wire
+          (path Back 1778
+            395229 -551310
+            395229 -549979
+            395228 -549979
+            362808 -517559
+            362808 -515943
+            267884 -421019
+            244779 -421019
+            217721 -448077
+            217721 -519981
+            247650 -549910
+          )
+        )
+        (wire
+          (path Front 1778
+            468630 -541020
+            462471 -541020
+            452181 -551310
+            395229 -551310
+          )
+        )
+        (via "Via[0-1]_762:381_um" 395229 -551310
+        )
+        (wire
+          (path Back 1778
+            941951 -429283
+            938679 -426011
+            733684 -426011
+            631375 -528320
+            481330 -528320
+            468630 -541020
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            985520 -403120
+            985520 -395950
+            947974 -395950
+            941952 -401972
+            941952 -429283
+            941951 -429283
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1036320 -541260
+            1036320 -533590
+            1041910 -527999
+            1041910 -448542
+            996690 -403321
+            996690 -403120
+            985520 -403120
+          )
+          (type protect)
+        )
+        (via "Via[0-1]_762:381_um" 941951 -429283
+          (type protect)
+        )
+      )
+      (net "Net-(C16-Pad1)"
+        (wire
+          (path Front 1778
+            1031240 -484900
+            1031240 -492570
+            1025300 -498509
+            1025300 -577338
+            1054100 -606137
+            1054100 -622554
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C16-Pad2)"
+        (wire
+          (path Front 1778
+            392977 -529737
+            371752 -529737
+            351579 -549910
+            260350 -549910
+          )
+        )
+        (via "Via[0-1]_762:381_um" 392977 -529737
+        )
+        (wire
+          (path Back 1778
+            955680 -434456
+            975126 -453902
+            1309577 -453902
+            1313737 -449742
+            1313737 -444519
+            1230982 -361764
+            482725 -361764
+            392977 -451512
+            392977 -529737
+          )
+        )
+        (wire
+          (path Back 1778
+            955680 -434456
+            954328 -435808
+            938964 -435808
+            932910 -429754
+            734974 -429754
+            623708 -541020
+            494030 -541020
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 1778
+            961203 -428933
+            955680 -434456
+          )
+          (type protect)
+        )
+        (via "Via[0-1]_762:381_um" 961203 -428933
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            961203 -428641
+            961203 -428933
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            961203 -428641
+            1012650 -428641
+            1031240 -447230
+            1031240 -454900
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            957580 -403120
+            957580 -425018
+            961203 -428641
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C17-Pad1)"
+        (wire
+          (path Front 1778
+            1045970 -616139
+            1045972 -616141
+            1045972 -622554
+          )
+        )
+        (wire
+          (path Front 1778
+            1045970 -616139
+            1045970 -622554
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1003300 -571260
+            1003300 -578930
+            1015180 -578930
+            1045970 -609724
+            1045970 -616139
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C17-Pad2)"
+        (wire
+          (path Back 1778
+            418668 -565582
+            388876 -535790
+            386072 -535790
+            366367 -516085
+            366367 -514041
+            269383 -417057
+            243237 -417057
+            214162 -446132
+            214162 -529122
+            247650 -562610
+          )
+        )
+        (wire
+          (path Back 1778
+            418668 -565582
+            417830 -566420
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 1778
+            930075 -436433
+            929702 -436060
+            738661 -436060
+            623410 -551311
+            432939 -551311
+            418668 -565582
+          )
+          (type protect)
+        )
+        (via "Via[0-1]_762:381_um" 930075 -436433
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            934368 -432140
+            930075 -436433
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            934368 -432140
+            938655 -436427
+            982005 -436427
+            1003300 -457722
+            1003300 -541260
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            929640 -403120
+            929640 -427412
+            934368 -432140
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C18-Pad1)"
+        (wire
+          (path Front 1778
+            1038100 -616139
+            1038098 -616141
+            1038098 -622554
+          )
+        )
+        (wire
+          (path Front 1778
+            1038100 -616139
+            1038100 -622554
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            982980 -484900
+            982980 -567997
+            1001030 -586048
+            1014420 -586048
+            1038100 -609724
+            1038100 -616139
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C18-Pad2)"
+        (wire
+          (path Front 1778
+            447485 -562165
+            440920 -555600
+            409730 -555600
+            402720 -562610
+            260350 -562610
+          )
+        )
+        (wire
+          (path Front 1778
+            447485 -562165
+            443230 -566420
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            901700 -403120
+            901700 -395950
+            724454 -395950
+            648502 -471902
+            581000 -471902
+            500548 -552354
+            457296 -552354
+            447485 -562165
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            901700 -403120
+            901700 -417250
+            927993 -443543
+            979293 -443543
+            982980 -447230
+            982980 -454900
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C19-Pad1)"
+        (wire
+          (path Front 1778
+            1029970 -622554
+            1029970 -609724
+            1011670 -591426
+            1001120 -591426
+            980950 -571260
+            970280 -571260
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C19-Pad2)"
+        (wire
+          (path Front 1778
+            247650 -575310
+            234528 -562188
+            234528 -507483
+            228635 -501590
+            228635 -436396
+            244444 -420587
+            566331 -420587
+            569809 -424065
+          )
+        )
+        (wire
+          (path Back 1778
+            621350 -490414
+            621350 -475606
+            569809 -424065
+          )
+        )
+        (wire
+          (path Front 1778
+            624176 -489087
+            622849 -490414
+            621350 -490414
+          )
+        )
+        (via "Via[0-1]_762:381_um" 569809 -424065
+        )
+        (via "Via[0-1]_762:381_um" 621350 -490414
+        )
+        (wire
+          (path Front 1778
+            624176 -489087
+            647771 -489087
+            648256 -488602
+            746490 -488602
+            758285 -476807
+            791887 -476807
+            795446 -473248
+            933571 -473248
+            936920 -469899
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            468630 -566420
+            478921 -576711
+            524343 -576711
+            611967 -489087
+            624176 -489087
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            936920 -469899
+            945655 -461164
+            945655 -448960
+            943799 -447104
+            910574 -447104
+            873760 -410290
+            873760 -403120
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            936920 -469899
+            970280 -503259
+            970280 -541260
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C20-Pad1)"
+        (wire
+          (path Front 1778
+            1022100 -616139
+            1022096 -616143
+            1022096 -622554
+          )
+        )
+        (wire
+          (path Front 1778
+            1022100 -616139
+            1022100 -622554
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            934720 -484900
+            934720 -492570
+            956899 -514749
+            956899 -574709
+            978954 -596764
+            1009140 -596764
+            1022100 -609724
+            1022100 -616139
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C20-Pad2)"
+        (wire
+          (path Front 1778
+            404200 -572367
+            263293 -572367
+            260350 -575310
+          )
+        )
+        (via "Via[0-1]_762:381_um" 404200 -572367
+        )
+        (wire
+          (path Back 1778
+            494030 -566420
+            483739 -556129
+            438495 -556129
+            431790 -562834
+            431790 -567267
+            422346 -576711
+            408544 -576711
+            404200 -572367
+          )
+        )
+        (wire
+          (path Front 1778
+            494030 -566420
+            526179 -566420
+            609156 -483443
+            728738 -483443
+            742492 -469689
+            888447 -469689
+            903586 -454550
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            934720 -454900
+            924050 -454900
+            923700 -454550
+            903586 -454550
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            845820 -403120
+            845820 -410290
+            859326 -410290
+            903586 -454550
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C21-Pad1)"
+        (wire
+          (path Front 1778
+            1013970 -616139
+            1013968 -616141
+            1013968 -622554
+          )
+        )
+        (wire
+          (path Front 1778
+            1013970 -616139
+            1013970 -609724
+            1004570 -600324
+            958654 -600324
+            937260 -578930
+            937260 -571260
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1013970 -622554
+            1013970 -616139
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C21-Pad2)"
+        (wire
+          (path Back 1778
+            227930 -511256
+            227930 -448237
+            247700 -428467
+            265222 -428467
+            345763 -509008
+            345763 -523685
+            413898 -591820
+            417830 -591820
+          )
+        )
+        (via "Via[0-1]_762:381_um" 227930 -511256
+        )
+        (wire
+          (path Front 1778
+            247650 -588010
+            227930 -568290
+            227930 -511256
+          )
+        )
+        (wire
+          (path Back 1778
+            417830 -591820
+            432246 -577404
+            602350 -577404
+            737563 -442191
+            820726 -442191
+            821076 -442541
+          )
+          (type protect)
+        )
+        (via "Via[0-1]_762:381_um" 920750 -543930
+          (type protect)
+        )
+        (via "Via[0-1]_762:381_um" 821076 -442541
+          (type protect)
+        )
+        (wire
+          (path Back 1778
+            821076 -442541
+            821076 -444256
+            920750 -543930
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            937260 -541260
+            926590 -541260
+            923920 -543930
+            920750 -543930
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            817880 -403120
+            817880 -410290
+            821076 -413486
+            821076 -442541
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C22-Pad1)"
+        (wire
+          (path Front 1778
+            1006090 -616139
+            1006094 -616143
+            1006094 -622554
+          )
+        )
+        (wire
+          (path Front 1778
+            1006090 -616139
+            1006090 -609724
+            1001920 -605545
+            954223 -605545
+            926589 -577911
+            926589 -564980
+            935519 -556050
+            944450 -556050
+            951501 -548999
+            951501 -533298
+            903103 -484900
+            886460 -484900
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1006090 -622554
+            1006090 -616139
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C22-Pad2)"
+        (wire
+          (path Front 1778
+            443230 -591820
+            437071 -591820
+            426472 -602419
+            274759 -602419
+            260350 -588010
+          )
+        )
+        (wire
+          (path Front 1778
+            443230 -591820
+            455930 -579120
+            455930 -563826
+            463842 -555914
+            518618 -555914
+            599070 -475462
+            731684 -475462
+            741016 -466130
+            844064 -466130
+            849540 -460654
+            849540 -447230
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            789940 -403120
+            789940 -420569
+            818392 -449021
+            823761 -449021
+            825552 -447230
+            849540 -447230
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            849540 -447230
+            886460 -447230
+            886460 -454900
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C23-Pad1)"
+        (wire
+          (path Front 1778
+            997966 -622554
+            997966 -609724
+            935034 -609724
+            904240 -578930
+            904240 -571260
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C23-Pad2)"
+        (wire
+          (path Front 1778
+            644187 -499044
+            641085 -495942
+          )
+        )
+        (wire
+          (path Back 1778
+            580989 -421929
+            641085 -482025
+            641085 -495942
+          )
+        )
+        (wire
+          (path Front 1778
+            580989 -421929
+            576087 -417027
+            242720 -417027
+            221244 -438503
+            221244 -574304
+            247650 -600710
+          )
+        )
+        (via "Via[0-1]_762:381_um" 580989 -421929
+        )
+        (via "Via[0-1]_762:381_um" 641085 -495942
+        )
+        (wire
+          (path Front 1778
+            768233 -499044
+            644187 -499044
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            644187 -499044
+            634302 -499044
+            553075 -580271
+            480179 -580271
+            468630 -591820
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 1778
+            767182 -448716
+            767182 -497993
+            768233 -499044
+          )
+          (type protect)
+        )
+        (via "Via[0-1]_762:381_um" 768233 -499044
+          (type protect)
+        )
+        (via "Via[0-1]_762:381_um" 767182 -448716
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            904240 -541260
+            904240 -533590
+            869694 -499044
+            768233 -499044
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            762000 -403120
+            762000 -443534
+            767182 -448716
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C24-Pad1)"
+        (wire
+          (path Front 1778
+            838200 -484900
+            838200 -492570
+            905688 -492570
+            947931 -534813
+            947931 -547392
+            942833 -552490
+            905519 -552490
+            892955 -565054
+            892955 -576751
+            899810 -583606
+            903217 -583606
+            942165 -622554
+            990092 -622554
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C24-Pad2)"
+        (wire
+          (path Back 1778
+            494711 -591820
+            483917 -602614
+            262254 -602614
+            260350 -600710
+          )
+        )
+        (wire
+          (path Back 1778
+            494711 -591820
+            597098 -591820
+            733721 -455197
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 1778
+            494030 -591820
+            494711 -591820
+          )
+          (type protect)
+        )
+        (via "Via[0-1]_762:381_um" 733721 -455197
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            734060 -455197
+            733721 -455197
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            838200 -454900
+            827530 -454900
+            827233 -455197
+            734060 -455197
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            734060 -455197
+            734060 -403120
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C25-Pad1)"
+        (wire
+          (path Front 1778
+            868440 -594360
+            908936 -594360
+            958212 -643636
+            971042 -643636
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C25-Pad2)"
+        (wire
+          (path Back 1778
+            247650 -613410
+            221391 -639669
+            221391 -725186
+            242048 -745843
+            283039 -745843
+            358606 -670276
+          )
+        )
+        (wire
+          (path Front 1778
+            417830 -617220
+            411662 -617220
+            358606 -670276
+          )
+        )
+        (via "Via[0-1]_762:381_um" 358606 -670276
+        )
+        (wire
+          (path Front 1778
+            589280 -603780
+            578110 -603780
+            577276 -602946
+            432104 -602946
+            417830 -617220
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            589280 -603780
+            589280 -596610
+            603543 -582347
+            705679 -582347
+            737357 -550669
+            771608 -550669
+            779780 -558841
+            779780 -563746
+            810394 -594360
+            838440 -594360
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C26-Pad1)"
+        (wire
+          (path Front 1778
+            794780 -561340
+            822196 -561340
+            853440 -592584
+            853440 -596475
+            871199 -614234
+            918612 -614234
+            955888 -651510
+            971042 -651510
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C26-Pad2)"
+        (wire
+          (path Front 1778
+            260350 -613410
+            260594 -613166
+            398455 -613166
+          )
+        )
+        (wire
+          (path Back 1778
+            398455 -613166
+            412839 -627550
+            432900 -627550
+            443230 -617220
+          )
+        )
+        (via "Via[0-1]_762:381_um" 398455 -613166
+        )
+        (wire
+          (path Front 1778
+            443230 -617220
+            453890 -606560
+            553588 -606560
+            557979 -610951
+            609449 -610951
+            619760 -600640
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            764780 -561340
+            757110 -561340
+            726032 -592418
+            627982 -592418
+            619760 -600640
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            619760 -603780
+            619760 -600640
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C27-Pad1)"
+        (wire
+          (path Front 1778
+            868440 -627380
+            923748 -627380
+            956006 -659638
+            971042 -659638
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C27-Pad2)"
+        (wire
+          (path Front 1778
+            338529 -673831
+            341454 -676756
+            361291 -676756
+            410399 -627648
+            479058 -627648
+          )
+        )
+        (wire
+          (path Back 1778
+            247650 -626110
+            225303 -648457
+            225303 -723766
+            243756 -742219
+            270141 -742219
+            338529 -673831
+          )
+        )
+        (via "Via[0-1]_762:381_um" 338529 -673831
+        )
+        (wire
+          (path Front 1778
+            650240 -610950
+            633542 -627648
+            479058 -627648
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            479058 -627648
+            468630 -617220
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            650240 -610950
+            666670 -627380
+            838440 -627380
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            650240 -603780
+            650240 -610950
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C28-Pad1)"
+        (wire
+          (path Front 1778
+            794780 -604520
+            802450 -604520
+            810120 -612190
+            840026 -612190
+            853440 -625604
+            853440 -629495
+            865554 -641609
+            929832 -641609
+            955735 -667512
+            971042 -667512
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C28-Pad2)"
+        (wire
+          (path Back 1778
+            260350 -626110
+            279776 -606684
+            483494 -606684
+            494030 -617220
+          )
+        )
+        (wire
+          (path Front 1778
+            683260 -603780
+            672090 -603780
+            664920 -596610
+            640343 -596610
+            639069 -597884
+            639069 -601391
+            623240 -617220
+            494030 -617220
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            764780 -604520
+            757110 -604520
+            756370 -603780
+            683260 -603780
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C29-Pad1)"
+        (wire
+          (path Front 1778
+            868440 -657860
+            937918 -657860
+            955698 -675640
+            971042 -675640
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C29-Pad2)"
+        (wire
+          (path Front 1778
+            417830 -642620
+            400460 -642620
+            362765 -680315
+            326525 -680315
+            323479 -677269
+          )
+        )
+        (wire
+          (path Back 1778
+            247650 -638810
+            228963 -657497
+            228963 -721901
+            245344 -738282
+            267194 -738282
+            323479 -681997
+            323479 -677269
+          )
+        )
+        (via "Via[0-1]_762:381_um" 323479 -677269
+        )
+        (wire
+          (path Front 1778
+            589280 -646350
+            575231 -632301
+            428149 -632301
+            417830 -642620
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            838440 -657860
+            830770 -657860
+            811920 -639010
+            596620 -639010
+            589280 -646350
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            589280 -653520
+            589280 -646350
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C30-Pad1)"
+        (wire
+          (path Front 1778
+            794780 -650240
+            802450 -650240
+            824299 -672089
+            943694 -672089
+            955119 -683514
+            971042 -683514
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C30-Pad2)"
+        (wire
+          (path Front 1778
+            376474 -641248
+            262788 -641248
+            260350 -638810
+          )
+        )
+        (via "Via[0-1]_762:381_um" 376474 -641248
+        )
+        (wire
+          (path Back 1778
+            446571 -645961
+            439415 -653117
+            388343 -653117
+            376474 -641248
+          )
+        )
+        (wire
+          (path Back 1778
+            446571 -645961
+            453698 -653088
+            602356 -653088
+            605509 -649935
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 1778
+            443230 -642620
+            446571 -645961
+          )
+          (type protect)
+        )
+        (via "Via[0-1]_762:381_um" 605509 -649935
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            764780 -650240
+            757110 -650240
+            749661 -642791
+            626904 -642791
+            619760 -649935
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            605509 -649935
+            619760 -649935
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            619760 -653520
+            619760 -649935
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C31-Pad1)"
+        (wire
+          (path Front 1778
+            971042 -691642
+            958212 -691642
+            954910 -688340
+            868440 -688340
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C31-Pad2)"
+        (wire
+          (path Back 1778
+            247650 -651510
+            232618 -666542
+            232618 -720523
+            246751 -734656
+            261655 -734656
+            312468 -683843
+          )
+        )
+        (wire
+          (path Front 1778
+            478939 -652929
+            395184 -652929
+            364239 -683874
+            312499 -683874
+            312468 -683843
+          )
+        )
+        (via "Via[0-1]_762:381_um" 312468 -683843
+        )
+        (wire
+          (path Front 1778
+            478939 -652929
+            479935 -653925
+            541266 -653925
+            551703 -664362
+            646568 -664362
+            650240 -660690
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            468630 -642620
+            478939 -652929
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            838440 -688340
+            830770 -688340
+            827719 -685289
+            788638 -685289
+            779780 -694147
+            779780 -698049
+            771198 -706631
+            738897 -706631
+            692956 -660690
+            650240 -660690
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            650240 -653520
+            650240 -660690
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C32-Pad1)"
+        (wire
+          (path Front 1778
+            794780 -695960
+            802450 -695960
+            806006 -699516
+            971042 -699516
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C32-Pad2)"
+        (wire
+          (path Back 1778
+            494030 -642620
+            483291 -631881
+            279979 -631881
+            260350 -651510
+          )
+        )
+        (wire
+          (path Front 1778
+            683260 -653520
+            683260 -646350
+            640590 -646350
+            639069 -647871
+            639069 -651077
+            629455 -660691
+            565552 -660691
+            547481 -642620
+            494030 -642620
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            764780 -695960
+            757110 -695960
+            714670 -653520
+            683260 -653520
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C33-Pad1)"
+        (wire
+          (path Front 1778
+            868440 -718820
+            876110 -718820
+            887286 -707644
+            971042 -707644
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C33-Pad2)"
+        (wire
+          (path Back 1778
+            247650 -664210
+            236177 -675683
+            236177 -719049
+            248225 -731097
+            259014 -731097
+            275486 -714625
+            275486 -711659
+            323381 -663764
+            413574 -663764
+            417830 -668020
+          )
+        )
+        (wire
+          (path Front 1778
+            587807 -742792
+            593708 -736891
+            745973 -736891
+            764044 -718820
+            838440 -718820
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            589280 -758720
+            589280 -751550
+            587807 -750077
+            587807 -742792
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            587807 -742792
+            584165 -742792
+            499102 -657729
+            428121 -657729
+            417830 -668020
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C34-Pad1)"
+        (wire
+          (path Front 1778
+            794780 -736600
+            875805 -736600
+            896887 -715518
+            971042 -715518
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C34-Pad2)"
+        (wire
+          (path Front 1778
+            260350 -664210
+            286463 -690323
+            363368 -690323
+            375380 -678311
+            422487 -678311
+            432778 -668020
+            443230 -668020
+          )
+        )
+        (via "Via[0-1]_762:381_um" 597907 -744358
+          (type protect)
+        )
+        (wire
+          (path Back 1778
+            597907 -744358
+            534269 -680720
+            455930 -680720
+            443230 -668020
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            619760 -751551
+            612567 -744358
+            597907 -744358
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            619760 -751551
+            627041 -744270
+            749440 -744270
+            757110 -736600
+            764780 -736600
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            619760 -758720
+            619760 -751551
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C35-Pad1)"
+        (wire
+          (path Front 1778
+            868440 -749300
+            876110 -749300
+            901764 -723646
+            971042 -723646
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C35-Pad2)"
+        (wire
+          (path Back 1778
+            468630 -668020
+            457995 -657385
+            324727 -657385
+            268367 -713745
+            268367 -716709
+            257539 -727537
+            250470 -727537
+            239737 -716804
+            239737 -684823
+            247650 -676910
+          )
+        )
+        (wire
+          (path Front 1778
+            772753 -751550
+            772753 -783749
+            771131 -785371
+            695732 -785371
+            681890 -771529
+            580200 -771529
+            510893 -702222
+            510893 -695551
+            496062 -680720
+            481330 -680720
+            468630 -668020
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            772753 -751550
+            828520 -751550
+            830770 -749300
+            838440 -749300
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            650240 -758720
+            650240 -751550
+            772753 -751550
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C36-Pad1)"
+        (wire
+          (path Front 1778
+            971042 -731520
+            904188 -731520
+            871633 -764075
+            813075 -764075
+            802450 -774700
+            794780 -774700
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C36-Pad2)"
+        (wire
+          (path Front 1778
+            260350 -676910
+            277322 -693882
+            371806 -693882
+            374185 -691503
+          )
+        )
+        (wire
+          (path Back 1778
+            530248 -712299
+            526445 -708496
+            411534 -708496
+            409929 -710101
+            392783 -710101
+            374185 -691503
+          )
+        )
+        (wire
+          (path Front 1778
+            545335 -719325
+            537274 -719325
+            530248 -712299
+          )
+        )
+        (wire
+          (path Front 1778
+            683260 -758720
+            683260 -765890
+            579622 -765890
+            577999 -764267
+            577999 -751989
+            545335 -719325
+          )
+          (type protect)
+        )
+        (via "Via[0-1]_762:381_um" 374185 -691503
+        )
+        (via "Via[0-1]_762:381_um" 530248 -712299
+        )
+        (wire
+          (path Front 1778
+            545335 -719325
+            494030 -668020
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            764780 -774700
+            757110 -774700
+            741130 -758720
+            683260 -758720
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C37-Pad1)"
+        (wire
+          (path Front 1778
+            868440 -779780
+            876110 -779780
+            916242 -739648
+            971042 -739648
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C37-Pad2)"
+        (wire
+          (path Front 1778
+            247650 -689610
+            239539 -697721
+            239539 -722149
+            248761 -731371
+            390725 -731371
+            423253 -698843
+          )
+        )
+        (wire
+          (path Front 1778
+            423253 -698843
+            417830 -693420
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            589280 -808460
+            589280 -801290
+            582110 -801290
+            513490 -732670
+            467361 -732670
+            454152 -719461
+            454152 -714886
+            445386 -706120
+            430530 -706120
+            423253 -698843
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            838440 -779780
+            846110 -779780
+            846110 -819403
+            844583 -820930
+            822295 -820930
+            802146 -800781
+            786886 -800781
+            780327 -807340
+            780327 -816849
+            771165 -826011
+            752336 -826011
+            727412 -801087
+            673181 -801087
+            669586 -804682
+            669586 -811066
+            661463 -819189
+            592839 -819189
+            589280 -815630
+            589280 -808460
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C38-Pad1)"
+        (wire
+          (path Front 1778
+            794780 -815340
+            802450 -815340
+            815203 -828093
+            848154 -828093
+            858835 -817412
+            858835 -802776
+            862022 -799589
+            876729 -799589
+            928796 -747522
+            971042 -747522
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C38-Pad2)"
+        (wire
+          (path Front 1778
+            260350 -689610
+            268964 -698224
+            382329 -698224
+            397423 -683130
+            425336 -683130
+            435626 -693420
+            443230 -693420
+          )
+        )
+        (wire
+          (path Front 1778
+            619760 -812045
+            598779 -791064
+            580827 -791064
+            498292 -708529
+            458339 -708529
+            443230 -693420
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            764780 -815340
+            757110 -815340
+            739222 -797452
+            671245 -797452
+            664248 -804449
+            664248 -811330
+            659948 -815630
+            623345 -815630
+            619760 -812045
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            619760 -808460
+            619760 -812045
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C39-Pad1)"
+        (wire
+          (path Front 1778
+            868440 -810260
+            876110 -810260
+            930720 -755650
+            971042 -755650
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C39-Pad2)"
+        (wire
+          (path Front 1778
+            247650 -702310
+            244774 -705186
+            244774 -722351
+            250235 -727812
+            380903 -727812
+            405115 -703600
+          )
+        )
+        (wire
+          (path Back 1778
+            468630 -693420
+            458228 -703822
+            405337 -703822
+            405115 -703600
+          )
+        )
+        (via "Via[0-1]_762:381_um" 405115 -703600
+        )
+        (wire
+          (path Front 1778
+            650240 -801290
+            635953 -787003
+            582578 -787003
+            500544 -704969
+            480179 -704969
+            468630 -693420
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            838440 -810260
+            830770 -810260
+            814163 -793653
+            657877 -793653
+            650240 -801290
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            650240 -808460
+            650240 -801290
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C40-Pad1)"
+        (wire
+          (path Front 1778
+            794780 -855980
+            857910 -855980
+            950366 -763524
+            971042 -763524
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C40-Pad2)"
+        (wire
+          (path Front 1778
+            391112 -699225
+            388027 -702310
+            260350 -702310
+          )
+        )
+        (wire
+          (path Back 1778
+            431037 -679317
+            411020 -679317
+            391112 -699225
+          )
+        )
+        (wire
+          (path Front 1778
+            494030 -693420
+            486956 -693420
+            472853 -679317
+            431037 -679317
+          )
+        )
+        (via "Via[0-1]_762:381_um" 391112 -699225
+        )
+        (via "Via[0-1]_762:381_um" 431037 -679317
+        )
+        (wire
+          (path Front 1778
+            761106 -841435
+            785143 -817398
+            785143 -807557
+            788360 -804340
+            800671 -804340
+            820865 -824534
+            846680 -824534
+            850266 -820948
+            850266 -774569
+            844807 -769110
+            823858 -769110
+            804017 -788951
+            670388 -788951
+            664880 -783443
+            584053 -783443
+            494030 -693420
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            764780 -855980
+            764780 -845310
+            761106 -841636
+            761106 -841435
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            683260 -808460
+            728131 -808460
+            761106 -841435
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C41-Pad1)"
+        (wire
+          (path Front 1778
+            904240 -835900
+            904240 -828230
+            947864 -784606
+            990092 -784606
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C41-Pad2)"
+        (wire
+          (path Front 1778
+            417830 -731520
+            445155 -731520
+            453521 -739886
+            453521 -743666
+            465560 -755705
+            499903 -755705
+            566390 -822192
+            566390 -831905
+            649947 -915462
+            809478 -915462
+            829309 -935293
+            847819 -935293
+            904240 -878872
+            904240 -865900
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            734060 -1026900
+            722890 -1026900
+            529110 -833120
+            441198 -833120
+            430530 -822452
+            430530 -817604
+            418577 -805651
+            413062 -805651
+            403873 -796462
+            403873 -743471
+            415824 -731520
+            417830 -731520
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            417830 -731520
+            417830 -718820
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C42-Pad1)"
+        (wire
+          (path Front 1778
+            997966 -784606
+            997966 -797436
+            958932 -797436
+            914911 -841457
+            914911 -842339
+            906350 -850900
+            902457 -850900
+            838200 -915157
+            838200 -927340
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C42-Pad2)"
+        (via "Via[0-1]_762:381_um" 749246 -960850
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            751767 -961594
+            749990 -961594
+            749246 -960850
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            838200 -957340
+            827530 -957340
+            826904 -956714
+            756647 -956714
+            751767 -961594
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            751767 -961594
+            751767 -1009500
+            762000 -1019730
+            762000 -1026900
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 1778
+            443230 -718820
+            458339 -733929
+            522325 -733929
+            749246 -960850
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C43-Pad1)"
+        (wire
+          (path Front 1778
+            1006090 -791021
+            1006094 -791017
+            1006094 -784606
+          )
+        )
+        (wire
+          (path Front 1778
+            1006090 -791021
+            1006090 -797436
+            998977 -804553
+            960937 -804553
+            937260 -828230
+            937260 -835900
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1006090 -784606
+            1006090 -791021
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C43-Pad2)"
+        (via "Via[0-1]_762:381_um" 923531 -865900
+          (type protect)
+        )
+        (via "Via[0-1]_762:381_um" 801607 -967057
+          (type protect)
+        )
+        (wire
+          (path Back 1778
+            468630 -718820
+            480179 -730369
+            564919 -730369
+            801607 -967057
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            937260 -865900
+            923531 -865900
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 1778
+            801607 -967057
+            804225 -969675
+            819756 -969675
+            923531 -865900
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            789940 -1026900
+            789940 -1019730
+            801607 -1008060
+            801607 -967057
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C44-Pad1)"
+        (wire
+          (path Front 1778
+            1013970 -791021
+            1013968 -791019
+            1013968 -784606
+          )
+        )
+        (wire
+          (path Front 1778
+            1013970 -791021
+            1013970 -797436
+            992757 -818647
+            970291 -818647
+            947931 -841007
+            947931 -876539
+            897130 -927340
+            886460 -927340
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1013970 -784606
+            1013970 -791021
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C44-Pad2)"
+        (via "Via[0-1]_762:381_um" 811009 -963194
+          (type protect)
+        )
+        (wire
+          (path Back 1778
+            494030 -718820
+            559045 -718820
+            592051 -751826
+            599641 -751826
+            811009 -963194
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            821973 -974157
+            817880 -978250
+            817880 -1026900
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            886460 -957340
+            886460 -965010
+            831120 -965010
+            821973 -974157
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            821973 -974157
+            811009 -963194
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C45-Pad1)"
+        (wire
+          (path Front 1778
+            1022100 -789680
+            1022096 -789676
+            1022096 -784606
+          )
+        )
+        (wire
+          (path Front 1778
+            1022100 -789680
+            1022100 -784606
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            970280 -835900
+            980950 -835900
+            1022100 -794754
+            1022100 -789680
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C45-Pad2)"
+        (via "Via[0-1]_762:381_um" 954535 -868275
+          (type protect)
+        )
+        (via "Via[0-1]_762:381_um" 845805 -974074
+          (type protect)
+        )
+        (wire
+          (path Back 1778
+            845805 -974012
+            845805 -974074
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 1778
+            954535 -868275
+            951542 -868275
+            845805 -974012
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 1778
+            417830 -744220
+            432939 -759329
+            507567 -759329
+            722250 -974012
+            845805 -974012
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            970280 -865900
+            959610 -865900
+            957235 -868275
+            954535 -868275
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            845820 -1026900
+            845820 -1019730
+            845805 -1019720
+            845805 -974074
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C46-Pad1)"
+        (wire
+          (path Front 1778
+            937260 -927340
+            937260 -919670
+            985010 -871920
+            985010 -837239
+            994020 -828229
+            994834 -828229
+            1029970 -793093
+            1029970 -784606
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C46-Pad2)"
+        (wire
+          (path Front 1778
+            916305 -969521
+            896278 -949494
+            673913 -949494
+            506739 -782320
+            415603 -782320
+            407433 -774150
+            407433 -764562
+            415075 -756920
+            423956 -756920
+            436656 -744220
+            443230 -744220
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            873760 -1026900
+            873760 -1019730
+            916305 -977185
+            916305 -969521
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            916305 -969521
+            932749 -969521
+            937260 -965010
+            937260 -957340
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C47-Pad1)"
+        (wire
+          (path Front 1778
+            1038100 -791021
+            1038098 -791019
+            1038098 -784606
+          )
+        )
+        (wire
+          (path Front 1778
+            1038100 -791021
+            1038100 -797436
+            1034090 -797436
+            1003300 -828230
+            1003300 -835900
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1038100 -784606
+            1038100 -791021
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C47-Pad2)"
+        (via "Via[0-1]_762:381_um" 702209 -942866
+          (type protect)
+        )
+        (wire
+          (path Back 1778
+            468630 -744220
+            480179 -755769
+            515112 -755769
+            702209 -942866
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            947987 -942866
+            702209 -942866
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1003300 -865900
+            1003300 -882674
+            961888 -924086
+            961888 -928965
+            947987 -942866
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            901700 -1026900
+            901700 -1019730
+            947987 -973443
+            947987 -942866
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C48-Pad1)"
+        (wire
+          (path Front 1778
+            1045970 -794885
+            1045972 -794883
+            1045972 -784606
+          )
+        )
+        (wire
+          (path Front 1778
+            1045970 -794885
+            1045970 -784606
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            982980 -927340
+            982980 -919670
+            1017530 -885121
+            1017530 -833607
+            1045970 -805164
+            1045970 -794885
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C48-Pad2)"
+        (via "Via[0-1]_762:381_um" 758247 -967532
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            929640 -1026900
+            929640 -1034070
+            780289 -1034070
+            778769 -1032550
+            778769 -988054
+            758247 -967532
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            982980 -957340
+            982980 -965010
+            980545 -965010
+            929640 -1015920
+            929640 -1026900
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 1778
+            758247 -967532
+            745249 -967532
+            521937 -744220
+            494030 -744220
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C49-Pad1)"
+        (wire
+          (path Front 1778
+            1036320 -835900
+            1036320 -828230
+            1054100 -810450
+            1054100 -784606
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C49-Pad2)"
+        (wire
+          (path Front 1778
+            991976 -935385
+            994073 -937482
+            994073 -963336
+            971271 -986138
+            964450 -986138
+            957580 -993008
+            957580 -1026900
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            417830 -769620
+            428185 -759265
+            498426 -759265
+            561051 -821890
+            561051 -831599
+            664745 -935293
+            824275 -935293
+            827834 -938852
+            942811 -938852
+            954021 -927642
+            954021 -916569
+            992630 -877960
+            992630 -859794
+            994194 -858230
+            1012410 -858230
+            1013970 -859794
+            1013970 -877039
+            972274 -918735
+            972274 -934154
+            973505 -935385
+            991976 -935385
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1036320 -865900
+            1036320 -891041
+            991976 -935385
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C50-Pad1)"
+        (wire
+          (path Front 1778
+            1061970 -797348
+            1061974 -797344
+            1061974 -784606
+          )
+        )
+        (wire
+          (path Front 1778
+            1061970 -797348
+            1061970 -784606
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1031240 -927340
+            1031240 -919670
+            1033160 -919670
+            1080010 -872816
+            1080010 -859758
+            1071150 -850900
+            1067250 -850900
+            1058310 -841957
+            1058310 -813757
+            1061970 -810091
+            1061970 -797348
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C50-Pad2)"
+        (via "Via[0-1]_762:381_um" 967134 -992618
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1031240 -957340
+            1031240 -965010
+            1014520 -965010
+            985520 -994005
+            985520 -995324
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            985520 -995324
+            969840 -995324
+            967134 -992618
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 1778
+            443230 -769620
+            458339 -784729
+            473642 -784729
+            480071 -791158
+            480071 -796220
+            490420 -806569
+            519650 -806569
+            705699 -992618
+            967134 -992618
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            985520 -995324
+            985520 -1026900
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C51-Pad1)"
+        (wire
+          (path Front 1778
+            1069850 -806164
+            1069848 -806162
+            1069848 -784606
+          )
+        )
+        (wire
+          (path Front 1778
+            1069850 -806164
+            1069850 -784606
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1069340 -835900
+            1069340 -828230
+            1069850 -827722
+            1069850 -806164
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C51-Pad2)"
+        (via "Via[0-1]_762:381_um" 999630 -989059
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1000180 -989611
+            1000180 -1006450
+            1013460 -1019730
+            1013460 -1026900
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1069340 -865900
+            1069340 -873570
+            1067420 -873570
+            1020440 -920555
+            1020440 -933703
+            1024910 -938173
+            1029250 -938173
+            1041910 -950838
+            1041910 -963634
+            1029760 -975786
+            1014010 -975786
+            1000180 -989611
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1000180 -989611
+            999630 -989059
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 1778
+            468630 -769620
+            480373 -781363
+            516658 -781363
+            719510 -984215
+            961340 -984215
+            962976 -982579
+            993150 -982579
+            999630 -989059
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C52-Pad1)"
+        (wire
+          (path Front 1778
+            1077980 -791021
+            1077976 -791017
+            1077976 -784606
+          )
+        )
+        (wire
+          (path Front 1778
+            1077980 -791021
+            1077980 -797436
+            1081400 -800861
+            1081400 -832083
+            1094400 -845078
+            1098350 -845078
+            1113030 -859758
+            1113030 -886139
+            1079500 -919670
+            1079500 -927340
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1077980 -784606
+            1077980 -791021
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C52-Pad2)"
+        (via "Via[0-1]_762:381_um" 1017040 -989015
+          (type protect)
+        )
+        (wire
+          (path Back 1778
+            1017040 -989015
+            1007040 -979020
+            961502 -979020
+            959867 -980655
+            723858 -980655
+            512823 -769620
+            494030 -769620
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1043940 -989015
+            1017040 -989015
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1079500 -957340
+            1079500 -965010
+            1055500 -989015
+            1043940 -989015
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1043940 -1026900
+            1043940 -989015
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C53-Pad1)"
+        (wire
+          (path Front 1778
+            1086100 -791844
+            1086104 -791840
+            1086104 -784606
+          )
+        )
+        (wire
+          (path Front 1778
+            1086100 -791844
+            1086100 -784606
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1102360 -835900
+            1102360 -828230
+            1086100 -811974
+            1086100 -791844
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C53-Pad2)"
+        (wire
+          (path Front 1778
+            1074420 -1023320
+            1074420 -1026900
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1102360 -865900
+            1102360 -873570
+            1068830 -907101
+            1068830 -934007
+            1080820 -945999
+            1085410 -945999
+            1090630 -951217
+            1090630 -976693
+            1074420 -992905
+            1074420 -1023320
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1074420 -1023320
+            1059720 -1038020
+            756090 -1038020
+            747269 -1029200
+            747269 -1022620
+            697447 -972803
+            676403 -972803
+            509022 -805422
+            428232 -805422
+            417830 -795020
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C54-Pad1)"
+        (wire
+          (path Front 1778
+            1093980 -794102
+            1093978 -794100
+            1093978 -784606
+          )
+        )
+        (wire
+          (path Front 1778
+            1093980 -794102
+            1093980 -784606
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1127760 -927340
+            1127760 -919670
+            1124710 -916619
+            1124710 -834329
+            1093980 -803598
+            1093980 -794102
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C54-Pad2)"
+        (via "Via[0-1]_762:381_um" 1106290 -1003300
+          (type protect)
+        )
+        (wire
+          (path Back 1778
+            1106290 -1003300
+            1103370 -1006220
+            679825 -1006220
+            504427 -830819
+            489875 -830819
+            482590 -823534
+            482590 -819755
+            471814 -808979
+            457189 -808979
+            443230 -795020
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1106290 -1003300
+            1106290 -986477
+            1127760 -965010
+            1127760 -957340
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1104900 -1026900
+            1104900 -1004690
+            1106290 -1003300
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C55-Pad1)"
+        (wire
+          (path Front 1778
+            1102110 -791021
+            1102106 -791017
+            1102106 -784606
+          )
+        )
+        (wire
+          (path Front 1778
+            1102110 -791021
+            1102110 -797436
+            1104590 -797436
+            1135380 -828230
+            1135380 -835900
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1102110 -784606
+            1102110 -791021
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C55-Pad2)"
+        (via "Via[0-1]_762:381_um" 1122580 -998784
+          (type protect)
+        )
+        (wire
+          (path Back 1778
+            1122580 -998784
+            1117050 -993256
+            1102140 -993256
+            1096290 -999099
+            690122 -999099
+            501152 -810129
+            483739 -810129
+            468630 -795020
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1122580 -998784
+            1138430 -982932
+            1138430 -876621
+            1135380 -873570
+            1135380 -865900
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1135380 -1026900
+            1135380 -1024200
+            1122580 -1011400
+            1122580 -998784
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C56-Pad1)"
+        (wire
+          (path Front 1778
+            1109980 -784606
+            1109980 -797436
+            1124770 -812224
+            1129020 -812224
+            1146800 -830002
+            1146800 -832101
+            1158970 -844274
+            1164090 -844274
+            1179480 -859671
+            1179480 -916206
+            1176020 -919670
+            1176020 -927340
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C56-Pad2)"
+        (wire
+          (path Front 1778
+            1163320 -1026900
+            1163320 -1023320
+          )
+          (type protect)
+        )
+        (via "Via[0-1]_762:381_um" 1083870 -992618
+          (type protect)
+        )
+        (wire
+          (path Back 1778
+            1083870 -992618
+            1080950 -995540
+            979221 -995540
+            969819 -986138
+            964450 -986138
+            962421 -988167
+            713396 -988167
+            520249 -795020
+            494030 -795020
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1163320 -1023320
+            1152560 -1034070
+            1095300 -1034070
+            1093730 -1032500
+            1093730 -1002480
+            1083870 -992618
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1176020 -957340
+            1176020 -1007030
+            1163320 -1019730
+            1163320 -1023320
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C57-Pad1)"
+        (wire
+          (path Front 1778
+            1118110 -791021
+            1118108 -791019
+            1118108 -784606
+          )
+        )
+        (wire
+          (path Front 1778
+            1118110 -791021
+            1118110 -797436
+            1119270 -797436
+            1157730 -835900
+            1168400 -835900
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1118110 -784606
+            1118110 -791021
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C57-Pad2)"
+        (wire
+          (path Front 1778
+            417830 -820420
+            430530 -833120
+            430530 -847851
+            449962 -867283
+            554991 -867283
+            729285 -1041580
+            1186290 -1041580
+            1193800 -1034070
+            1193800 -1026900
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1168400 -865900
+            1168400 -873570
+            1165350 -876621
+            1165350 -934124
+            1166700 -935478
+            1171440 -935478
+            1193330 -957365
+            1193330 -1019260
+            1193800 -1019730
+            1193800 -1026900
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C58-Pad1)"
+        (wire
+          (path Front 1778
+            1125980 -791021
+            1125982 -791019
+            1125982 -784606
+          )
+        )
+        (wire
+          (path Front 1778
+            1125980 -791021
+            1125980 -797436
+            1155500 -826951
+            1176410 -826951
+            1186900 -837442
+            1186900 -882287
+            1224280 -919670
+            1224280 -927340
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1125980 -784606
+            1125980 -791021
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C58-Pad2)"
+        (via "Via[0-1]_762:381_um" 1211500 -1013060
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1226820 -1026900
+            1226820 -1019730
+            1224280 -1017190
+            1224280 -1013060
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1224280 -957340
+            1224280 -1013060
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1224280 -1013060
+            1211500 -1013060
+          )
+          (type protect)
+        )
+        (wire
+          (path Back 1778
+            1211500 -1013060
+            1207210 -1017360
+            625293 -1017360
+            458339 -850404
+            458339 -835529
+            443230 -820420
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C59-Pad1)"
+        (wire
+          (path Front 1778
+            1134110 -784606
+            1134110 -797436
+            1151170 -814494
+            1169340 -814494
+            1190750 -835900
+            1201420 -835900
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C59-Pad2)"
+        (via "Via[0-1]_762:381_um" 1199810 -1005770
+          (type protect)
+        )
+        (wire
+          (path Back 1778
+            1199810 -1005770
+            1195800 -1009780
+            674269 -1009780
+            498872 -834379
+            482589 -834379
+            468630 -820420
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1201420 -1005770
+            1201420 -1012180
+            1215650 -1026410
+            1215650 -1032500
+            1217210 -1034070
+            1254760 -1034070
+            1254760 -1026900
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1201420 -1005770
+            1201420 -963382
+            1222470 -942340
+            1226370 -942340
+            1234950 -933758
+            1234950 -907101
+            1201420 -873570
+            1201420 -865900
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1201420 -1005770
+            1199810 -1005770
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C60-Pad1)"
+        (wire
+          (path Front 1778
+            1141980 -791021
+            1141984 -791017
+            1141984 -784606
+          )
+        )
+        (wire
+          (path Front 1778
+            1141980 -791021
+            1141980 -784606
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1275080 -927340
+            1275080 -919670
+            1271240 -919670
+            1218930 -867356
+            1218930 -836315
+            1191770 -809157
+            1153700 -809157
+            1141980 -797436
+            1141980 -791021
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C60-Pad2)"
+        (wire
+          (path Front 1778
+            1275080 -961175
+            1275080 -965010
+            1287780 -977710
+            1287780 -1026900
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1275080 -957340
+            1275080 -961175
+          )
+          (type protect)
+        )
+        (via "Via[0-1]_762:381_um" 1238090 -961175
+          (type protect)
+        )
+        (wire
+          (path Back 1778
+            1238090 -961175
+            1190960 -961175
+            1146870 -1005260
+            1117430 -1005260
+            1108980 -996815
+            1103610 -996815
+            1097770 -1002660
+            681302 -1002660
+            499064 -820420
+            494030 -820420
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1275080 -961175
+            1238090 -961175
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C61-Pad1)"
+        (wire
+          (path Front 1778
+            1150110 -791021
+            1150112 -791019
+            1150112 -784606
+          )
+        )
+        (wire
+          (path Front 1778
+            1150110 -791021
+            1150110 -797436
+            1158270 -805597
+            1211810 -805597
+            1234440 -828230
+            1234440 -835900
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1150110 -784606
+            1150110 -791021
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C61-Pad2)"
+        (wire
+          (path Front 1778
+            1306370 -1023320
+            1306370 -1025650
+            1286890 -1045140
+            712187 -1045140
+            549482 -882431
+            454441 -882431
+            417830 -845820
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1306370 -1023320
+            1306370 -941524
+            1238420 -873570
+            1234440 -873570
+            1234440 -865900
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1315720 -1026900
+            1315720 -1023320
+            1306370 -1023320
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C62-Pad1)"
+        (wire
+          (path Front 1778
+            1157990 -791021
+            1157986 -791017
+            1157986 -784606
+          )
+        )
+        (wire
+          (path Front 1778
+            1157990 -791021
+            1157990 -797436
+            1162590 -802038
+            1217620 -802038
+            1254250 -838662
+            1254250 -842139
+            1263010 -850900
+            1266990 -850900
+            1323340 -907246
+            1323340 -927340
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1157990 -784606
+            1157990 -791021
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C62-Pad2)"
+        (via "Via[0-1]_762:381_um" 1313330 -1005770
+          (type protect)
+        )
+        (wire
+          (path Back 1778
+            443230 -845820
+            619141 -1021730
+            1297370 -1021730
+            1313330 -1005770
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1323340 -1005770
+            1323340 -957340
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1346200 -1026900
+            1346200 -1024200
+            1327760 -1005770
+            1323340 -1005770
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1323340 -1005770
+            1313330 -1005770
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C63-Pad1)"
+        (wire
+          (path Front 1778
+            1166110 -791021
+            1166114 -791017
+            1166114 -784606
+          )
+        )
+        (wire
+          (path Front 1778
+            1166110 -791021
+            1166110 -797436
+            1234130 -797436
+            1264920 -828230
+            1264920 -835900
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1166110 -784606
+            1166110 -791021
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C63-Pad2)"
+        (via "Via[0-1]_762:381_um" 1283240 -908434
+          (type protect)
+        )
+        (wire
+          (path Back 1778
+            1283240 -908434
+            1283240 -932131
+            1201730 -1013640
+            636449 -1013640
+            468630 -845820
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1264920 -865900
+            1264920 -873570
+            1283240 -891886
+            1283240 -908434
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1376680 -1026900
+            1376680 -993904
+            1325120 -942340
+            1317140 -942340
+            1283240 -908434
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C64-Pad1)"
+        (wire
+          (path Front 1778
+            1173990 -784606
+            1173988 -784606
+          )
+        )
+        (wire
+          (path Front 1778
+            1369060 -927340
+            1369060 -919670
+            1234000 -784606
+            1173990 -784606
+          )
+          (type protect)
+        )
+      )
+      (net "Net-(C64-Pad2)"
+        (wire
+          (path Front 1778
+            1404620 -1026900
+            1404620 -1034070
+            1389990 -1048700
+            696906 -1048700
+            655329 -1007120
+          )
+          (type protect)
+        )
+        (wire
+          (path Front 1778
+            1369060 -957340
+            1369060 -965010
+            1404620 -1000570
+            1404620 -1026900
+          )
+          (type protect)
+        )
+        (via "Via[0-1]_762:381_um" 655329 -1007120
+          (type protect)
+        )
+        (wire
+          (path Back 1778
+            494030 -845820
+            655329 -1007120
+          )
+          (type protect)
+        )
+      )
+    )
+  )
+)

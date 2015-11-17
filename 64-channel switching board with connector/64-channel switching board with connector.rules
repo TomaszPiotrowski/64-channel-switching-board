@@ -1,0 +1,93 @@
+
+(rules PCB 64-channel switching board with connector
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 645)
+    (layer_rule Front
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.9)
+    )
+    (layer_rule Back
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.5)
+    )
+  )
+  (rule
+    (width 177.8)
+    (clear 178.0)
+    (clear 88.9 (type smd_to_turn_gap))
+    (clear 44.6 (type smd_smd))
+  )
+  (padstack "Via[0-1]_762:381_um"
+    (shape
+      (circle Front 762.0 0.0 0.0)
+    )
+    (shape
+      (circle Back 762.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_762:381_um" "Via[0-1]_762:381_um" default
+  )
+  (via 
+    "Via[0-1]_762:381_um-kicad_default" "Via[0-1]_762:381_um" "kicad_default"
+  )
+  (via_rule
+    default "Via[0-1]_762:381_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_762:381_um-kicad_default"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 177.8)
+    )
+    (circuit 
+      (use_layer Front Back)
+    )
+  )
+  (class "kicad_default"
+    +5V BL CLK DIOA DIOB DIR GND LE
+    POL "Net-(P66-Pad1)" "Net-(P66-Pad2)" "Net-(C1-Pad1)" "Net-(C1-Pad2)" "Net-(C2-Pad1)" "Net-(C2-Pad2)" "Net-(C3-Pad1)"
+    "Net-(C3-Pad2)" "Net-(C4-Pad1)" "Net-(C4-Pad2)" "Net-(C5-Pad1)" "Net-(C5-Pad2)" "Net-(C6-Pad1)" "Net-(C6-Pad2)" "Net-(C7-Pad1)"
+    "Net-(C7-Pad2)" "Net-(C8-Pad1)" "Net-(C8-Pad2)" "Net-(C9-Pad1)" "Net-(C9-Pad2)" "Net-(C10-Pad1)" "Net-(C10-Pad2)" "Net-(C11-Pad1)"
+    "Net-(C11-Pad2)" "Net-(C12-Pad1)" "Net-(C12-Pad2)" "Net-(C13-Pad1)" "Net-(C13-Pad2)" "Net-(C14-Pad1)" "Net-(C14-Pad2)" "Net-(C15-Pad1)"
+    "Net-(C15-Pad2)" "Net-(C16-Pad1)" "Net-(C16-Pad2)" "Net-(C17-Pad1)" "Net-(C17-Pad2)" "Net-(C18-Pad1)" "Net-(C18-Pad2)" "Net-(C19-Pad1)"
+    "Net-(C19-Pad2)" "Net-(C20-Pad1)" "Net-(C20-Pad2)" "Net-(C21-Pad1)" "Net-(C21-Pad2)" "Net-(C22-Pad1)" "Net-(C22-Pad2)" "Net-(C23-Pad1)"
+    "Net-(C23-Pad2)" "Net-(C24-Pad1)" "Net-(C24-Pad2)" "Net-(C25-Pad1)" "Net-(C25-Pad2)" "Net-(C26-Pad1)" "Net-(C26-Pad2)" "Net-(C27-Pad1)"
+    "Net-(C27-Pad2)" "Net-(C28-Pad1)" "Net-(C28-Pad2)" "Net-(C29-Pad1)" "Net-(C29-Pad2)" "Net-(C30-Pad1)" "Net-(C30-Pad2)" "Net-(C31-Pad1)"
+    "Net-(C31-Pad2)" "Net-(C32-Pad1)" "Net-(C32-Pad2)" "Net-(C33-Pad1)" "Net-(C33-Pad2)" "Net-(C34-Pad1)" "Net-(C34-Pad2)" "Net-(C35-Pad1)"
+    "Net-(C35-Pad2)" "Net-(C36-Pad1)" "Net-(C36-Pad2)" "Net-(C37-Pad1)" "Net-(C37-Pad2)" "Net-(C38-Pad1)" "Net-(C38-Pad2)" "Net-(C39-Pad1)"
+    "Net-(C39-Pad2)" "Net-(C40-Pad1)" "Net-(C40-Pad2)" "Net-(C41-Pad1)" "Net-(C41-Pad2)" "Net-(C42-Pad1)" "Net-(C42-Pad2)" "Net-(C43-Pad1)"
+    "Net-(C43-Pad2)" "Net-(C44-Pad1)" "Net-(C44-Pad2)" "Net-(C45-Pad1)" "Net-(C45-Pad2)" "Net-(C46-Pad1)" "Net-(C46-Pad2)" "Net-(C47-Pad1)"
+    "Net-(C47-Pad2)" "Net-(C48-Pad1)" "Net-(C48-Pad2)" "Net-(C49-Pad1)" "Net-(C49-Pad2)" "Net-(C50-Pad1)" "Net-(C50-Pad2)" "Net-(C51-Pad1)"
+    "Net-(C51-Pad2)" "Net-(C52-Pad1)" "Net-(C52-Pad2)" "Net-(C53-Pad1)" "Net-(C53-Pad2)" "Net-(C54-Pad1)" "Net-(C54-Pad2)" "Net-(C55-Pad1)"
+    "Net-(C55-Pad2)" "Net-(C56-Pad1)" "Net-(C56-Pad2)" "Net-(C57-Pad1)" "Net-(C57-Pad2)" "Net-(C58-Pad1)" "Net-(C58-Pad2)" "Net-(C59-Pad1)"
+    "Net-(C59-Pad2)" "Net-(C60-Pad1)" "Net-(C60-Pad2)" "Net-(C61-Pad1)" "Net-(C61-Pad2)" "Net-(C62-Pad1)" "Net-(C62-Pad2)" "Net-(C63-Pad1)"
+    "Net-(C63-Pad2)" "Net-(C64-Pad1)" "Net-(C64-Pad2)" "Net-(P65-Pad10)" "Net-(U1-Pad27)" "Net-(U1-Pad28)" "Net-(U1-Pad35)" "Net-(U1-Pad36)"
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 177.8)
+    )
+    (circuit 
+      (use_layer Front Back)
+    )
+  )
+)
